@@ -1,0 +1,410 @@
+Executing tasks: [clean, :robert:assembleDebug, :stopcovid:assembleDebug, :coreui:assembleDebug, :framework:assembleDebug, :analytics:assembleDebug, :ble:assembleDebug, :domain:assembleDebug] in project C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master
+
+
+> Configure project :stopcovid
+AGPBI: {"kind":"warning","text":"API 'BaseVariant.getApplicationIdTextResource' is obsolete and has been replaced with 'VariantProperties.applicationId'.\nIt will be removed in version 7.0 of the Android Gradle plugin.\nFor more information, see TBD.\nTo determine what is calling BaseVariant.getApplicationIdTextResource, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.","sources":[{}]}
+
+> Task :clean UP-TO-DATE
+> Task :analytics:clean UP-TO-DATE
+> Task :ble:clean UP-TO-DATE
+> Task :coreui:clean UP-TO-DATE
+> Task :dgca-decoder:clean UP-TO-DATE
+> Task :domain:clean UP-TO-DATE
+> Task :framework:clean UP-TO-DATE
+> Task :robert:clean UP-TO-DATE
+> Task :stopcovid:clean UP-TO-DATE
+> Task :analytics:preBuild UP-TO-DATE
+> Task :analytics:preDebugBuild UP-TO-DATE
+> Task :domain:preBuild UP-TO-DATE
+> Task :domain:preDebugBuild UP-TO-DATE
+> Task :domain:compileDebugAidl NO-SOURCE
+> Task :analytics:compileDebugAidl NO-SOURCE
+> Task :robert:preBuild UP-TO-DATE
+> Task :robert:preDebugBuild UP-TO-DATE
+> Task :robert:compileDebugAidl NO-SOURCE
+> Task :robert:mergeDebugJniLibFolders
+> Task :robert:mergeDebugNativeLibs NO-SOURCE
+> Task :robert:stripDebugDebugSymbols NO-SOURCE
+> Task :domain:packageDebugRenderscript NO-SOURCE
+> Task :analytics:compileDebugRenderscript NO-SOURCE
+> Task :robert:copyDebugJniLibsProjectAndLocalJars
+> Task :analytics:generateDebugBuildConfig
+> Task :analytics:extractDebugProto
+> Task :domain:compileDebugRenderscript NO-SOURCE
+> Task :domain:generateDebugBuildConfig
+> Task :domain:generateDebugResValues
+> Task :domain:generateDebugResources
+> Task :domain:packageDebugResources
+> Task :domain:processDebugJavaRes NO-SOURCE
+> Task :domain:javaPreCompileDebug
+> Task :analytics:extractProto
+> Task :domain:parseDebugLocalResources
+> Task :analytics:generateDebugResValues
+> Task :analytics:generateDebugResources
+> Task :analytics:packageDebugResources
+> Task :analytics:parseDebugLocalResources
+> Task :analytics:packageDebugRenderscript NO-SOURCE
+> Task :robert:compileDebugRenderscript NO-SOURCE
+> Task :analytics:javaPreCompileDebug
+> Task :domain:processDebugManifest
+> Task :analytics:processDebugManifest
+> Task :robert:generateDebugBuildConfig
+> Task :robert:generateDebugResValues
+> Task :robert:generateDebugResources
+> Task :robert:packageDebugResources
+> Task :robert:parseDebugLocalResources
+> Task :robert:javaPreCompileDebug
+> Task :robert:mergeDebugShaders
+> Task :robert:compileDebugShaders NO-SOURCE
+> Task :robert:generateDebugAssets UP-TO-DATE
+
+> Task :robert:processDebugManifest
+C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\robert\src\main\AndroidManifest.xml:17:9-21:36 Warning:
+	service#androidx.work.impl.background.systemjob.SystemJobService was tagged at AndroidManifest.xml:17 to replace another declaration but no other declaration present
+
+> Task :robert:packageDebugAssets
+> Task :robert:packageDebugRenderscript NO-SOURCE
+> Task :robert:prepareDebugArtProfile
+> Task :robert:processDebugJavaRes NO-SOURCE
+> Task :robert:prepareLintJarForPublish
+> Task :domain:generateDebugRFile
+> Task :ble:preBuild UP-TO-DATE
+> Task :ble:preDebugBuild UP-TO-DATE
+> Task :robert:writeDebugAarMetadata
+> Task :ble:compileDebugAidl NO-SOURCE
+> Task :domain:compileDebugKotlin
+> Task :domain:bundleLibResDebug
+> Task :domain:compileDebugJavaWithJavac
+> Task :domain:bundleLibRuntimeToJarDebug
+> Task :domain:bundleLibCompileToJarDebug
+> Task :domain:createFullJarDebug
+> Task :analytics:generateDebugRFile
+> Task :analytics:extractIncludeDebugProto
+> Task :analytics:generateDebugProto
+> Task :robert:generateDebugRFile
+> Task :analytics:kaptGenerateStubsDebugKotlin
+> Task :analytics:kaptDebugKotlin
+> Task :analytics:compileDebugKotlin
+> Task :analytics:compileDebugJavaWithJavac
+> Task :ble:compileDebugRenderscript NO-SOURCE
+> Task :ble:generateDebugBuildConfig
+> Task :ble:generateDebugResValues
+> Task :ble:generateDebugResources
+> Task :analytics:bundleLibCompileToJarDebug
+> Task :ble:packageDebugResources
+> Task :ble:parseDebugLocalResources
+> Task :ble:javaPreCompileDebug
+
+> Task :ble:processDebugManifest
+C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\ble\src\main\AndroidManifest.xml:27:9-29:35 Warning:
+	receiver#no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver was tagged at AndroidManifest.xml:27 to remove other declarations but no other declaration present
+
+> Task :robert:compileDebugKotlin
+> Task :robert:extractDebugAnnotations
+> Task :robert:compileDebugJavaWithJavac
+> Task :robert:mergeDebugGeneratedProguardFiles
+> Task :robert:mergeDebugConsumerProguardFiles
+> Task :robert:compileDebugSources
+> Task :coreui:preBuild UP-TO-DATE
+> Task :coreui:preDebugBuild UP-TO-DATE
+> Task :coreui:compileDebugAidl NO-SOURCE
+> Task :coreui:compileDebugRenderscript NO-SOURCE
+> Task :ble:generateDebugRFile
+> Task :robert:mergeDebugJavaResource
+> Task :coreui:dataBindingMergeDependencyArtifactsDebug
+> Task :robert:syncDebugLibJars
+> Task :robert:bundleDebugAar
+> Task :robert:assembleDebug
+> Task :coreui:dataBindingMergeGenClassesDebug
+> Task :coreui:generateDebugResValues
+> Task :coreui:generateDebugResources
+> Task :coreui:packageDebugResources
+> Task :coreui:dataBindingGenBaseClassesDebug
+> Task :coreui:generateDebugBuildConfig
+> Task :coreui:parseDebugLocalResources
+> Task :ble:compileDebugKotlin
+> Task :ble:compileDebugJavaWithJavac
+> Task :ble:bundleLibCompileToJarDebug
+> Task :robert:bundleLibCompileToJarDebug
+> Task :coreui:processDebugManifest
+> Task :dgca-decoder:preBuild UP-TO-DATE
+> Task :dgca-decoder:preDebugBuild UP-TO-DATE
+> Task :coreui:javaPreCompileDebug
+> Task :dgca-decoder:compileDebugAidl NO-SOURCE
+> Task :dgca-decoder:compileDebugRenderscript NO-SOURCE
+> Task :dgca-decoder:generateDebugBuildConfig
+> Task :dgca-decoder:generateDebugResValues
+> Task :dgca-decoder:generateDebugResources
+> Task :coreui:generateDebugRFile
+> Task :dgca-decoder:packageDebugResources
+> Task :dgca-decoder:parseDebugLocalResources
+> Task :coreui:compileDebugKotlin
+> Task :coreui:compileDebugJavaWithJavac
+> Task :coreui:bundleLibCompileToJarDebug
+> Task :framework:preBuild UP-TO-DATE
+> Task :framework:preDebugBuild UP-TO-DATE
+> Task :framework:compileDebugAidl NO-SOURCE
+> Task :ble:packageDebugRenderscript NO-SOURCE
+> Task :dgca-decoder:javaPreCompileDebug
+> Task :framework:compileDebugRenderscript NO-SOURCE
+> Task :framework:generateDebugBuildConfig
+> Task :dgca-decoder:processDebugManifest
+> Task :framework:extractDebugProto
+> Task :analytics:processDebugJavaRes
+> Task :analytics:bundleLibResDebug
+> Task :ble:processDebugJavaRes NO-SOURCE
+> Task :analytics:bundleLibRuntimeToJarDebug
+> Task :ble:bundleLibResDebug
+> Task :dgca-decoder:generateDebugRFile
+> Task :ble:bundleLibRuntimeToJarDebug
+> Task :analytics:createFullJarDebug
+> Task :robert:bundleLibResDebug
+> Task :robert:bundleLibRuntimeToJarDebug
+
+> Task :dgca-decoder:compileDebugKotlin
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\dgca-app-core-android\decoder\src\main\java\dgca\verifier\app\decoder\model\GreenCertificate.kt: (76, 7): 'toLowerCase(Locale): String' is deprecated. Use lowercase() instead.
+
+> Task :dgca-decoder:compileDebugJavaWithJavac
+> Task :framework:extractProto
+> Task :framework:generateDebugResValues
+> Task :framework:generateDebugResources
+> Task :dgca-decoder:bundleLibCompileToJarDebug
+> Task :framework:packageDebugResources
+> Task :framework:parseDebugLocalResources
+> Task :ble:createFullJarDebug
+> Task :framework:javaPreCompileDebug
+> Task :framework:processDebugManifest
+> Task :robert:createFullJarDebug
+> Task :framework:extractIncludeDebugProto
+> Task :framework:generateDebugProto
+> Task :stopcovid:preBuild UP-TO-DATE
+> Task :stopcovid:preDebugBuild UP-TO-DATE
+> Task :stopcovid:compileDebugAidl NO-SOURCE
+> Task :coreui:packageDebugRenderscript NO-SOURCE
+> Task :dgca-decoder:packageDebugRenderscript NO-SOURCE
+> Task :framework:packageDebugRenderscript NO-SOURCE
+> Task :stopcovid:compileDebugRenderscript NO-SOURCE
+> Task :framework:generateDebugRFile
+> Task :stopcovid:dataBindingMergeDependencyArtifactsDebug
+> Task :stopcovid:dataBindingMergeGenClassesDebug
+> Task :stopcovid:generateDebugResValues
+> Task :framework:kaptGenerateStubsDebugKotlin
+> Task :framework:kaptDebugKotlin
+> Task :framework:compileDebugKotlin
+> Task :framework:compileDebugJavaWithJavac
+> Task :stopcovid:generateDebugResources
+> Task :framework:bundleLibCompileToJarDebug
+> Task :stopcovid:generateDebugBuildConfig
+> Task :stopcovid:writeDebugApplicationId
+> Task :stopcovid:generateSafeArgsDebug
+> Task :analytics:compileDebugLibraryResources
+> Task :ble:compileDebugLibraryResources
+> Task :coreui:compileDebugLibraryResources
+> Task :dgca-decoder:compileDebugLibraryResources
+> Task :domain:compileDebugLibraryResources
+> Task :framework:compileDebugLibraryResources
+> Task :robert:compileDebugLibraryResources
+> Task :analytics:writeDebugAarMetadata
+> Task :ble:writeDebugAarMetadata
+> Task :coreui:writeDebugAarMetadata
+> Task :dgca-decoder:writeDebugAarMetadata
+> Task :domain:writeDebugAarMetadata
+> Task :framework:writeDebugAarMetadata
+> Task :stopcovid:createDebugCompatibleScreenManifests
+> Task :analytics:extractDeepLinksDebug
+> Task :ble:extractDeepLinksDebug
+> Task :coreui:extractDeepLinksDebug
+> Task :stopcovid:checkDebugAarMetadata
+> Task :dgca-decoder:extractDeepLinksDebug
+> Task :domain:extractDeepLinksDebug
+> Task :framework:extractDeepLinksDebug
+> Task :robert:extractDeepLinksDebug
+> Task :stopcovid:extractDeepLinksDebug
+> Task :stopcovid:processDebugMainManifest
+> Task :stopcovid:processDebugManifest
+> Task :stopcovid:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :stopcovid:javaPreCompileDebug
+> Task :analytics:mergeDebugShaders
+> Task :analytics:compileDebugShaders NO-SOURCE
+> Task :analytics:generateDebugAssets UP-TO-DATE
+> Task :analytics:packageDebugAssets
+> Task :ble:mergeDebugShaders
+> Task :ble:compileDebugShaders NO-SOURCE
+> Task :ble:generateDebugAssets UP-TO-DATE
+> Task :ble:packageDebugAssets
+> Task :coreui:mergeDebugShaders
+> Task :coreui:compileDebugShaders NO-SOURCE
+> Task :coreui:generateDebugAssets UP-TO-DATE
+> Task :coreui:packageDebugAssets
+> Task :dgca-decoder:mergeDebugShaders
+> Task :dgca-decoder:compileDebugShaders NO-SOURCE
+> Task :dgca-decoder:generateDebugAssets UP-TO-DATE
+> Task :dgca-decoder:packageDebugAssets
+> Task :domain:mergeDebugShaders
+> Task :domain:compileDebugShaders NO-SOURCE
+> Task :domain:generateDebugAssets UP-TO-DATE
+> Task :stopcovid:mergeDebugResources
+> Task :domain:packageDebugAssets
+> Task :framework:mergeDebugShaders
+> Task :framework:compileDebugShaders NO-SOURCE
+> Task :framework:generateDebugAssets UP-TO-DATE
+> Task :framework:packageDebugAssets
+> Task :stopcovid:dataBindingGenBaseClassesDebug
+> Task :stopcovid:mergeDebugShaders
+> Task :stopcovid:compileDebugShaders NO-SOURCE
+> Task :stopcovid:generateDebugAssets UP-TO-DATE
+> Task :stopcovid:mergeDebugAssets
+> Task :stopcovid:processDebugManifestForPackage
+> Task :stopcovid:compressDebugAssets
+> Task :coreui:processDebugJavaRes NO-SOURCE
+> Task :dgca-decoder:processDebugJavaRes NO-SOURCE
+> Task :coreui:bundleLibResDebug
+> Task :dgca-decoder:bundleLibResDebug
+> Task :framework:processDebugJavaRes
+> Task :stopcovid:processDebugJavaRes NO-SOURCE
+> Task :framework:bundleLibResDebug
+> Task :stopcovid:processDebugResources
+> Task :stopcovid:l8DexDesugarLibDebug
+> Task :stopcovid:checkDebugDuplicateClasses
+> Task :stopcovid:kaptGenerateStubsDebugKotlin
+> Task :stopcovid:kaptDebugKotlin
+> Task :stopcovid:compileDebugKotlin
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentArgs.kt: (8, 8): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentArgs.kt: (16, 29): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentArgs.kt: (43, 29): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentArgs.kt: (47, 60): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentDirections.kt: (9, 8): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentDirections.kt: (17, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentDirections.kt: (18, 30): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentDirections.kt: (43, 22): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\PositiveTestFragmentDirections.kt: (44, 21): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (8, 8): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (16, 29): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (17, 28): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (49, 29): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (53, 60): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (61, 28): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SendHistoryFragmentArgs.kt: (65, 58): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (9, 8): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (17, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (18, 30): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (43, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (64, 22): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (65, 21): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\build\generated\source\navigation-args\debug\com\lunabeestudio\stopcovid\fragment\SymptomsOriginFragmentDirections.kt: (70, 24): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\src\main\java\com\lunabeestudio\stopcovid\manager\WalletManager.kt: (47, 93): Condition 'it.id == null' is always 'false'
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\src\main\java\com\lunabeestudio\stopcovid\manager\WalletManager.kt: (47, 110): Condition 'it.isFavorite == null' is always 'false'
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\src\main\java\com\lunabeestudio\stopcovid\manager\WalletManager.kt: (54, 48): Elvis operator (?:) always returns the left operand of non-nullable type String
+w: C:\Users\WINDOWSUSERNAME\AndroidStudioProjects\stopcovid-android-master\stopcovid\src\main\java\com\lunabeestudio\stopcovid\manager\WalletManager.kt: (54, 108): Elvis operator (?:) always returns the left operand of non-nullable type Boolean
+
+> Task :stopcovid:compileDebugJavaWithJavac
+> Task :stopcovid:compileDebugSources
+> Task :stopcovid:desugarDebugFileDependencies
+> Task :stopcovid:mergeDebugJavaResource
+> Task :stopcovid:mergeExtDexDebug
+> Task :framework:bundleLibRuntimeToJarDebug
+> Task :coreui:bundleLibRuntimeToJarDebug
+> Task :dgca-decoder:bundleLibRuntimeToJarDebug
+> Task :stopcovid:dexBuilderDebug
+> Task :analytics:mergeDebugJniLibFolders
+> Task :analytics:mergeDebugNativeLibs NO-SOURCE
+> Task :analytics:stripDebugDebugSymbols NO-SOURCE
+> Task :ble:mergeDebugJniLibFolders
+> Task :ble:mergeDebugNativeLibs NO-SOURCE
+> Task :ble:stripDebugDebugSymbols NO-SOURCE
+> Task :analytics:copyDebugJniLibsProjectOnly
+> Task :ble:copyDebugJniLibsProjectOnly
+> Task :coreui:mergeDebugJniLibFolders
+> Task :coreui:mergeDebugNativeLibs NO-SOURCE
+> Task :coreui:stripDebugDebugSymbols NO-SOURCE
+> Task :coreui:copyDebugJniLibsProjectOnly
+> Task :dgca-decoder:mergeDebugJniLibFolders
+> Task :dgca-decoder:mergeDebugNativeLibs NO-SOURCE
+> Task :dgca-decoder:stripDebugDebugSymbols NO-SOURCE
+> Task :dgca-decoder:copyDebugJniLibsProjectOnly
+> Task :stopcovid:mergeLibDexDebug
+> Task :domain:mergeDebugJniLibFolders
+> Task :domain:mergeDebugNativeLibs NO-SOURCE
+> Task :domain:stripDebugDebugSymbols NO-SOURCE
+> Task :domain:copyDebugJniLibsProjectOnly
+> Task :framework:mergeDebugJniLibFolders
+> Task :framework:mergeDebugNativeLibs NO-SOURCE
+> Task :framework:stripDebugDebugSymbols NO-SOURCE
+> Task :framework:copyDebugJniLibsProjectOnly
+> Task :robert:copyDebugJniLibsProjectOnly
+> Task :stopcovid:mergeDebugJniLibFolders
+> Task :stopcovid:mergeProjectDexDebug
+> Task :stopcovid:validateSigningDebug
+> Task :stopcovid:writeDebugAppMetadata
+> Task :stopcovid:writeDebugSigningConfigVersions
+> Task :stopcovid:mergeDebugNativeLibs NO-SOURCE
+> Task :stopcovid:stripDebugDebugSymbols NO-SOURCE
+> Task :coreui:copyDebugJniLibsProjectAndLocalJars
+> Task :coreui:extractDebugAnnotations
+> Task :coreui:mergeDebugGeneratedProguardFiles
+> Task :coreui:mergeDebugConsumerProguardFiles
+> Task :coreui:prepareDebugArtProfile
+> Task :coreui:prepareLintJarForPublish
+> Task :coreui:compileDebugSources
+> Task :framework:copyDebugJniLibsProjectAndLocalJars
+> Task :coreui:mergeDebugJavaResource
+> Task :framework:extractDebugAnnotations
+> Task :coreui:syncDebugLibJars
+> Task :coreui:bundleDebugAar
+> Task :coreui:assembleDebug
+> Task :framework:mergeDebugGeneratedProguardFiles
+> Task :framework:mergeDebugConsumerProguardFiles
+> Task :framework:prepareDebugArtProfile
+> Task :framework:prepareLintJarForPublish
+> Task :framework:compileDebugSources
+> Task :analytics:copyDebugJniLibsProjectAndLocalJars
+> Task :framework:mergeDebugJavaResource
+> Task :analytics:extractDebugAnnotations
+> Task :framework:syncDebugLibJars
+> Task :framework:bundleDebugAar
+> Task :framework:assembleDebug
+> Task :analytics:mergeDebugGeneratedProguardFiles
+> Task :analytics:mergeDebugConsumerProguardFiles
+> Task :analytics:prepareDebugArtProfile
+> Task :analytics:prepareLintJarForPublish
+> Task :analytics:compileDebugSources
+> Task :ble:copyDebugJniLibsProjectAndLocalJars
+> Task :analytics:mergeDebugJavaResource
+> Task :ble:extractDebugAnnotations
+> Task :analytics:syncDebugLibJars
+> Task :analytics:bundleDebugAar
+> Task :analytics:assembleDebug
+> Task :ble:mergeDebugGeneratedProguardFiles
+> Task :ble:mergeDebugConsumerProguardFiles
+> Task :ble:prepareDebugArtProfile
+> Task :ble:prepareLintJarForPublish
+> Task :ble:mergeDebugJavaResource
+> Task :ble:mergeDebugResources
+> Task :ble:syncDebugLibJars
+> Task :ble:bundleDebugAar
+> Task :ble:compileDebugSources
+> Task :ble:assembleDebug
+> Task :domain:copyDebugJniLibsProjectAndLocalJars
+> Task :domain:extractDebugAnnotations
+> Task :domain:mergeDebugGeneratedProguardFiles
+> Task :domain:mergeDebugConsumerProguardFiles
+> Task :domain:prepareDebugArtProfile
+> Task :domain:prepareLintJarForPublish
+> Task :domain:compileDebugSources
+> Task :domain:mergeDebugJavaResource
+> Task :domain:syncDebugLibJars
+> Task :domain:bundleDebugAar
+> Task :domain:assembleDebug
+> Task :stopcovid:packageDebug
+> Task :stopcovid:assembleDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6m 42s
+254 actionable tasks: 245 executed, 9 up-to-date
+
+Build Analyzer results available
